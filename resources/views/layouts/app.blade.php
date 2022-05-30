@@ -46,7 +46,7 @@
                     @if (Route::has('login'))
                         @auth
                             <li class="nav-item">
-                                <a  class=" nav-link btn btn-warning " href="{{ url('/artadd') }}">Создать статью</a>
+                                <a  class=" nav-link btn btn-warning " href="{{ route('personal.article.create') }}">Создать статью</a>
                             </li>
                             <li class="pl-3 nav-item">
                                 <a class="nav-link btn btn-warning" href="{{ route('personal.main.index') }}">Личный кабинет</a>
@@ -90,16 +90,6 @@
     <div class="container">
         <div class="footer-content">
             <div class="row">
-                <div class="col-md-6">
-{{--                    <img src="{{ asset('plugins/111/assets/images/Logo_1.svg') }}" alt="oleez" class="footer-logo">--}}
-{{--                    <p class="footer-intro-text">Don't be shy, get in touch with us and create the world again!</p>--}}
-{{--                    <nav class="footer-social-links">--}}
-{{--                        <a href="#!">Fb</a>--}}
-{{--                        <a href="#!">Tw</a>--}}
-{{--                        <a href="#!">In</a>--}}
-{{--                        <a href="#!">Be</a>--}}
-{{--                    </nav>--}}
-                </div>
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-6 footer-widget-text">
